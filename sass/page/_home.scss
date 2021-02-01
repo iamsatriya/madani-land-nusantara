@@ -1,0 +1,21 @@
+.section-about-us {
+  display: flex;
+  padding: 5rem 10rem;
+  min-height: 90vh;
+  &__description {
+    flex: 1.5;
+    margin-right: 5rem;
+    text-align: justify;
+    padding-bottom: 5rem; // remove later
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.3rem;
+  }
+  &__img {
+    flex: 1;
+    background-image: url('../../asset/img/interior-1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}

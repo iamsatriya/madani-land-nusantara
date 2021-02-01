@@ -1,0 +1,42 @@
+body {
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: $font-opensans;
+  color: $black;
+}
+[class^="heading"] {
+  font-family: $font-bebasneue;
+}
+.heading-primary {
+  color: $white;
+  &__main {
+    font-size: 8rem;
+    line-height: .9;
+    &--block {
+      display: block;
+    }
+  }
+  &__sub {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.project-link {
+  &__white {
+    @include hover-brown;
+    color: $white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: $font-bebasneue;
+    display: inline;
+  }
+}
+.heading-secondary {
+  &__sub {
+    color: $brown;
+    font-size: 3rem;
+  }
+  &__main {
+    font-size: 5rem;
+  }
+}
