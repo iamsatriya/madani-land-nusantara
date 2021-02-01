@@ -1,0 +1,5 @@
+@mixin hover-brown {
+  &:hover, &:active {
+    color: $brown;
+  }
+}

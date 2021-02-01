@@ -1,0 +1,29 @@
+.header {
+  background-image: url('../../asset/img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 85vh;
+  position: relative;
+  &__container {
+    padding-left: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    &::before {
+      content: '';
+      width: 55%;
+      height: 120%;
+      position: absolute;
+      top: -10%;
+      left: 0;
+      border: 1rem solid $brown;
+      z-index: -1;
+    }
+  }
+}
