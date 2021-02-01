@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #f0f0f0; }
+
+body {
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
+  color: #202020; }
+
+[class^="heading"] {
+  font-family: "Bebas Neue", cursive; }
+
+.heading-primary {
+  color: #f0f0f0; }
+  .heading-primary__main {
+    font-size: 8rem;
+    line-height: .9; }
+    .heading-primary__main--block {
+      display: block; }
+  .heading-primary__sub {
+    font-size: 2rem;
+    margin-bottom: 2rem; }
+
+.project-link__white {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: "Bebas Neue", cursive;
+  display: inline; }
+  .project-link__white:hover, .project-link__white:active {
+    color: #a99561; }
+
+.heading-secondary__sub {
+  color: #a99561;
+  font-size: 3rem; }
+
+.heading-secondary__main {
+  font-size: 5rem; }
+
+.u-margin-bottom-med {
+  margin-bottom: 4rem; }
+
+.header {
+  background-image: url("../../asset/img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 85vh;
+  position: relative; }
+  .header__container {
+    padding-left: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .header__container::before {
+      content: '';
+      width: 55%;
+      height: 120%;
+      position: absolute;
+      top: -10%;
+      left: 0;
+      border: 1rem solid #a99561;
+      z-index: -1; }
+
+.section-about-us {
+  display: flex;
+  padding: 5rem 10rem;
+  min-height: 90vh; }
+  .section-about-us__description {
+    flex: 1.5;
+    margin-right: 5rem;
+    text-align: justify;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.3rem; }
+  .section-about-us__img {
+    flex: 1;
+    background-image: url("../../asset/img/interior-1.jpg");
+    background-size: cover;
+    background-position: center; }

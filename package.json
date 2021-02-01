@@ -1,0 +1,29 @@
+{
+  "name": "madani-land-nusantara",
+  "version": "1.0.0",
+  "description": "Real Estate and Developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsatriya/madani-land-nusantara.git"
+  },
+  "keywords": [
+    "real",
+    "estate",
+    "developer",
+    "perumahan"
+  ],
+  "author": "Satriya Wicaksana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsatriya/madani-land-nusantara/issues"
+  },
+  "homepage": "https://github.com/iamsatriya/madani-land-nusantara#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
